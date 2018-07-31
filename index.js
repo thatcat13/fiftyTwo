@@ -63,18 +63,20 @@ class Deck {
 
 //sort method accepting custom compareFunction as parameter, set to ascending algorithm
   sortedDeck(){
-    let completeDeck = this.cards;
-    completeDeck.sort((a,b) => {
+    const sortedDeck = this.cards;
+    sortedDeck.sort((a,b) => {
       return a.value - b.value;
     });
+    return sortedDeck;
   }
 
 //sort method accepting compareFunction [default] in conjunction with Math.random() to return a negative number and a positive number in equal amounts
   shuffledDeck(){
-    let completeDeck = this.cards;
-    completeDeck.sort(() => {
+    const shuffledDeck = this.cards;
+    shuffledDeck.sort(() => {
       return 0.5 - Math.random()
     });
+    return shuffledDeck;
   }
 }
 
