@@ -4,7 +4,7 @@
 //sort function returns proper ascending numerical order
 //shuffle function returns randomized order
 
-const Deck = require('../index.js');
+const Deck = require('../../index.js');
 const newDeck = new Deck();
 
 describe('Deck', function() {
