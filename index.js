@@ -1,7 +1,7 @@
 
 //full deck of cards
-class Deck {
-  constructor(cards){
+  class Deck {
+  constructor() {
     this.cards = [
       {value: 6, suit: 'hearts', kind: '6'},
       {value: 8, suit: 'hearts', kind: '8'},
@@ -79,7 +79,8 @@ class Deck {
     return shuffledDeck;
   }
 }
-module.exports = Deck;
+
+export default Deck; 
 
 //CODE TO CREATE A DECK FROM SCRATCH:
 // var deck = [];
