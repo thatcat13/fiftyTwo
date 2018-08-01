@@ -80,7 +80,7 @@
   }
 }
 
-export default Deck; 
+module.exports = Deck;
 
 //CODE TO CREATE A DECK FROM SCRATCH:
 // var deck = [];
